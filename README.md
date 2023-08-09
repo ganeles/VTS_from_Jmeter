@@ -16,7 +16,7 @@ open "http://localhost:4000/", switch "Disable" to "Enable" in the "Access from 
 4) Add the http requests from my example to get the data from VTS and use them inside the Jmeter
 
 List of the ALL VTS functions available here:
-https://admhelp.microfocus.com/vugen/en/2023-2023-r1/help/function_reference/Content/FuncRef/VTS/etc/VTS_Parent_Functions.htm
+https://admhelp.microfocus.com/vugen/en/2023-2023-r1/help/function_reference/Content/FuncRef/VTS/etc/lrFr_lrvtc_Functions.htm
 
 But this is the list of DSL-functions that are ONLY available in Virtual User Generator 
 (https://www.microfocus.com/marketplace/appdelivery/content/virtual-user-generator-vugen).
