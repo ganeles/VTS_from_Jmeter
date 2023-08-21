@@ -9,7 +9,7 @@ Or you can put there unique variables that need to be processed, and then take t
 
 VTS is a table (or several tables) where you can add rows, take rows (with or without deletion). You can work both with the whole row and with individual columns.
 VTS is good because it has a GUI that makes it easy to understand what is in the repository - and thus understand whether you are ready for the next test.
-
+![VTS](./screenshot.png "VTS")
 
 
 How to use it:
