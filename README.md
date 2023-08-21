@@ -1,6 +1,17 @@
 # VTS_from_Jmeter
 Integrating VTS With JMeter
 
+What is VTS ?
+This is a place where you can store your variables.
+
+It is convenient to use it to exchange data between scripts or even between tests. For example, if you are testing a banking application, you can generate accounts in one test today (and put them in VTS during the test) and tomorrow, in another test, you can use these accounts for any actions.
+Or you can put there unique variables that need to be processed, and then take them away - and you will be sure that each variable has been processed only once.
+
+VTS is a table (or several tables) where you can add rows, take rows (with or without deletion). You can work both with the whole row and with individual columns.
+VTS is good because it has a GUI that makes it easy to understand what is in the repository - and thus understand whether you are ready for the next test.
+
+
+
 How to use it:
 1) Download and Install VTS:
 Latest version here (free, registratation required)
