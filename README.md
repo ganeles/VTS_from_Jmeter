@@ -8,6 +8,7 @@ It is convenient to use it to exchange data between scripts or even between test
 Or you can put there unique variables that need to be processed, and then take them away - and you will be sure that each variable has been processed only once.
 
 VTS is a free tool that was made for LoadRunner, but it has an HTTP API, which means it can be used with other load testing tools that do not have such a convenient data warehouse.
+But these APIs are hidden under the DSL in LoadRunner, so for your convenience I have added the main calls in this example JMX file. Just download and use
 
 VTS is a table (or several tables) where you can add rows, take rows (with or without deletion). You can work both with the whole row and with individual columns.
 VTS is good because it has a GUI that makes it easy to understand what is in the repository - and thus understand whether you are ready for the next test.
