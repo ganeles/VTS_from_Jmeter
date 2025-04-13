@@ -18,10 +18,9 @@ VTS is good because it has a GUI that makes it easy to understand what is in the
 How to use it:
 1) Download and Install VTS:
 Latest version here free (registration required, available for business emails only)
-https://www.microfocus.com/marketplace/appdelivery/content/virtual-table-server
-or here (because official registration is terrible):
-[Windows](https://disk.yandex.ru/d/7NPAbQv1226sSA)
-[Linux](https://disk.yandex.ru/d/c8YJTcNYtgi68g)
+https://marketplace.opentext.com/appdelivery/content/virtual-table-server   
+or here (because official registration is terrible):  
+[Windows](https://disk.yandex.ru/d/7NPAbQv1226sSA), [Linux](https://disk.yandex.ru/d/c8YJTcNYtgi68g)  
 
 3) After installation, you need to enable API access:
 Open "http://localhost:4000/", switch "Disable" to "Enable" in the "Access from Script" menu.
@@ -31,11 +30,11 @@ Also, you can import "sample data" from the "Options" menu
 
 5) Add the HTTP requests from my example to get the data from VTS and use them inside the JMeter
 
-List of ALL VTS functions available here:
+List of ALL VTS functions available here:  
 https://admhelp.microfocus.com/vugen/en/24.1-24.3/help/function_reference/Content/FuncRef/VTS/etc/VTS_Parent_Functions.htm
 
-But this is the list of DSL functions that are ONLY available in Virtual User Generator 
-(https://www.microfocus.com/marketplace/appdelivery/content/virtual-user-generator-vugen).
+But this is the list of DSL functions that are ONLY available in Virtual User Generator  
+https://marketplace.opentext.com/appdelivery/content/virtual-user-generator-vugen
 
 In fact, all these functions can be called via HTTP. I added the most used calls to my example.
 To figure out how to call functions that I didn't added to my example, you need to install Virtual User Generator, add this function to Vugen script and run the script via the proxy server to see the HTTP API.
